@@ -6,7 +6,7 @@ func init() {
 	modules.Register("k6/x/say", new(SAY))
 }
 
-// SAY is the k6 SQL plugin.
+// SAY is the k6 say extension.
 type SAY struct{}
 
 // Hello says hello to someone

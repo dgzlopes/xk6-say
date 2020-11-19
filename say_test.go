@@ -2,11 +2,11 @@ package say
 
 import "testing"
 
-var plugin = new(SAY)
+var extension = new(SAY)
 
 func TestHello(t *testing.T) {
 
-	got := plugin.Hello("Daniel")
+	got := extension.Hello("Daniel")
 	want := "Hello Daniel"
 
 	if got != want {
