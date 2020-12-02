@@ -1,4 +1,4 @@
-module github.com/dgzlopes/k6-extension-say
+module github.com/dgzlopes/xk6-say
 
 go 1.15
 
